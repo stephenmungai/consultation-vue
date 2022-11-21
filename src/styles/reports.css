@@ -1,0 +1,35 @@
+.cards-view{
+    display: flex;
+    gap: 15px;
+    margin: 1em 0;
+}
+section{
+    margin: 2em 0;
+}
+.report-card{
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    min-width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 24px 0px;    /* border: 1.4px solid black; */
+
+}
+.report-number{
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: #1d9fb9;
+    
+}
+
+.report-subtitle{
+    font-weight: 600;
+    font-size: small;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#bar-chart{
+    width: 200;
+    height: 200;
+}

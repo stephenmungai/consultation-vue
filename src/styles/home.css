@@ -1,0 +1,242 @@
+.home-nav {
+  display: flex;
+  align-items: center;
+  padding: 0.6em 1em;
+  min-height: 10vh;
+}
+a{
+    text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 2.2em;
+  margin-right: 0.3em;
+}
+.logo p {
+  font-weight: bold;
+  color: #1d9fb9;
+}
+.nav-links {
+  display: flex;
+  margin-left: auto;
+}
+.nav-link {
+  margin: 0 1em;
+  font-size: small;
+  font-weight: 500;
+  color: gray;
+  cursor: pointer;
+}
+.home-nav .router-link-active p{
+    color: black;
+    font-weight: bold;
+}
+.home-nav .router-link-active p::after{
+    display: block;
+    content: '';
+    height: 3px;
+    width: 30%;
+    margin: 0.1em auto;
+    border-radius: 7px;
+    background-color: #1d9fb9;
+}
+.home-nav button {
+  margin-left: auto;
+  width: 150px;
+  height: 45px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: smaller;
+}
+.profile-settings{
+    position: relative;
+    margin-left: auto;
+    cursor: pointer;
+}
+.profile-settings:hover .container {
+    display: block;
+}
+.profile-settings .container{
+    padding: 1em;
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    top:1em;
+    right: 0.5em;
+    z-index: 4;
+}
+
+.profile-settings .container p{
+    font-size: small;
+    margin: 1em;
+    color: rgb(40, 40, 40);
+}
+header .profile-details{
+    margin-left: auto;
+    font-size: small;
+    color: #1d9fb9;
+    font-weight: 600;
+}
+header .profile-details img{
+    width: 1.3em;
+    margin-right: 0.5em;
+}
+
+.page-title {
+  margin: 1em 0;
+  text-align: center;
+}
+.page-title h1{
+    font-weight: 600;
+}
+.page-title .subtitle{
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: gray;
+    font-weight: 500;
+}
+.home-main{
+    margin: 2em 1em;
+}
+.doctors-list{
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+.doctor-card{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;    /* border: 1.4px solid black; */
+
+}
+.doctor-card-normal{
+    height: 250px;
+    width: 250px;
+    padding: 2em 0.6em;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;    /* border: 1.4px solid black; */
+    text-align: center;
+    cursor: pointer;
+}
+.doctor-card img{
+    display: block;
+    margin: 0 auto;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.doctor-card-normal .doctor-details{
+    margin-top: 0.6em;
+}
+.doctor-card-normal .doctor-name{
+    font-weight: 600;
+    margin-bottom: 0.6em;
+    color: #1d9fb9;
+}
+.doctor-card-normal .doctor-specialization{
+    font-size: smaller;
+    font-weight: 500;
+    color: gray;
+}
+
+.doctor-card-focus{
+    height: 250px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    background-color: #1d9fb9;
+    color: white;
+    border-radius: 7px;
+    position: relative;
+}
+
+.doctor-card-focus .doctor-brief{
+    text-align: center;
+}
+.doctor-card-focus .doctor-brief img{
+    margin-bottom: 0.8em;
+}
+.doctor-card-focus .doctor-name{
+    font-weight: bold;
+    font-size: 1.05em;
+    margin-bottom: 0.4em;
+}
+.doctor-card-focus .doctor-specialization{
+    font-size: small;
+    color: rgb(222, 220, 220);
+}
+.doctor-card-focus .separator{
+    
+    height: 160px;
+    margin: 0 1em;
+    border-radius: 2px;
+    width: 2px;
+    background-color: rgba(125, 125, 125, 0.505);
+}
+.doctor-card-focus .detail-container{
+    margin: 1em 0;
+}
+.doctor-card-focus .detail-container{
+    font-size: 0.85em;
+    
+}
+.book-doctor{
+    cursor: pointer;
+}
+.book-doctor:hover{
+    font-size: 1.2em;
+}
+.detail-title{
+    font-weight: normal;
+    color: rgb(213, 213, 213);
+    margin: 0.5em 0;
+}
+.detail-content{
+    font-weight: 600;
+}
+.doctor-card-focus .book-doctor{
+    position: absolute;
+    bottom: 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.doctor-focus-close{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+}
+#homepage{
+    height: 80vh;
+    padding: 0 3em ;
+}
+#homepage .row{
+    align-items: center;
+}
+.hero-content{
+    width: 40vw;
+}
+.hero-content span{
+    color: #1d9fb9;
+}
+.hero-content h1{
+    line-height: 1.5;
+    word-spacing: 0.2em;
+}
+.hero-content p{
+    margin: 2em 0;
+    line-height: 2;
+    color: gray;
+    font-size: small;
+}
+.hero-image{
+    width: 40vw;
+    margin:0 auto;
+    display: block;
+}

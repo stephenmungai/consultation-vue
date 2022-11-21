@@ -1,0 +1,152 @@
+.consultation-page {
+  /* margin: -2em -1em; */
+  display: flex;
+}
+#photos-section {
+  width: 20vw;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+  padding: 1em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.photos-title {
+  display: flex;
+  justify-content: space-between;
+}
+.section-title {
+  font-weight: 600;
+}
+.add-media {
+  cursor: pointer;
+}
+#messages-section {
+  width: 100%;
+}
+.media-card-container{
+  margin: 2em 0;
+
+}
+.media-card-container p{
+  text-transform: capitalize;
+  margin-bottom: 0.5em;
+}
+.media-card {
+  display: flex;
+  font-size: 0.7em;
+  cursor: pointer;
+  font-weight: 500;
+}
+.media-card img{
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  margin-right: 0.5em;
+}
+
+.media-card .message-time{
+  text-align: left;
+}
+.messages-header {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 1em;
+  height: 10vh;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.messages-header img {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+.start-link{
+  color: #1d9fb9;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: smaller;
+  cursor: pointer;
+}
+.doctor-name {
+  margin: 0 auto;
+}
+.messages-main{
+  height: 85vh;
+  padding: 1em;
+
+}
+.messages-list{
+  height: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.message{
+  padding: 0.5em;
+  background-color: #F1F5FB;
+  max-width: 300px;
+  min-width: 200px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: small;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+.message-time{
+  font-size: 0.7em;
+  text-align: right;
+  text-transform: uppercase;
+}
+.messages-main input[type='text']{
+  border-top: 1.7px solid black;
+  background-color: white;
+  border-radius: 0px;
+  outline: none;
+}
+.messages-main input[type='text']:focus{
+  border-top: 2px solid black;
+}
+#send-msg-btn{
+  margin-left: auto;
+  display: block;
+}
+
+.logo{
+  width: 2em;
+  height: 2em;
+}
+#diagnosis-modal-header h4{
+  text-align: center;
+  margin: 0 auto;
+}
+.textarea{
+  width: 100%;
+  height: 90px;
+}
+.diagnosis-form button{
+  width: 100%;
+}
+#make-diag{
+  align-items: center;
+  border: 2px solid #1d9fb9;
+  padding: 0.2em 1em;
+  border-radius: 10px;
+  color: #1d9fb9;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+#make-diag:hover{
+  background-color: #1d9fb9;
+  color: white;
+}
+#make-diag img{
+  width: 1em;
+  margin-right: 1em;
+}
+.message-sender{
+  margin-left: auto;
+}
+a{
+  text-decoration: none;
+}

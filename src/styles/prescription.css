@@ -1,0 +1,87 @@
+.prescription {
+  background-color: #fbfbfb;
+  min-width: 700px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  padding: 1em 2em;
+}
+.logo {
+  width: fit-content;
+}
+.logo .col .logo-tagline {
+  color: gray;
+  font-size: 0.6em;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+
+.prescription-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prescription-header .consult-details p {
+  margin-bottom: 0.5em;
+  font-size: 0.6em;
+  color: black;
+  font-weight: 500;
+}
+.prescription-doctor {
+  font-weight: 500;
+  font-size: small;
+}
+.prescription-doctor img {
+  margin-right: 1em;
+}
+section {
+  margin: 2em 0;
+}
+section p {
+  line-height: 1.4;
+}
+.profile-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.prescription-title {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+#remarks {
+  line-height: 2;
+  font-size: smaller;
+}
+.medicine {
+  font-weight: 500;
+  font-weight: small;
+}
+.prescription-footer p{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: .6em;
+    letter-spacing: .2em;
+    color: gray;
+}
+.prescription-date{
+    font-weight: 500;
+    font-size: small;
+    color: gray;
+}
+.icon-container{
+    background-color: #1d9fb9;
+    width: 3em;
+    height: 3em;
+    display: grid;
+    place-items: center;
+    color: white;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
